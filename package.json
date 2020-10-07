@@ -1,0 +1,40 @@
+{
+  "name": "landing-page-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Landing Page API",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && yarn install"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "0.21.6",
+    "pg": "8.4.0",
+    "strapi": "3.2.0",
+    "strapi-admin": "3.2.0",
+    "strapi-connector-bookshelf": "3.2.0",
+    "strapi-plugin-content-manager": "3.2.0",
+    "strapi-plugin-content-type-builder": "3.2.0",
+    "strapi-plugin-email": "3.2.0",
+    "strapi-plugin-graphql": "3.2.0",
+    "strapi-plugin-upload": "3.2.0",
+    "strapi-plugin-users-permissions": "3.2.0",
+    "strapi-provider-upload-aws-s3": "3.2.0",
+    "strapi-utils": "3.2.0"
+  },
+  "author": {
+    "name": "Silvano RM"
+  },
+  "strapi": {
+    "uuid": "f69347f0-870c-42eb-86bc-bb463de4a954"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

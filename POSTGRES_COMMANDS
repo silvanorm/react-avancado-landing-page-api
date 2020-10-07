@@ -1,0 +1,30 @@
+// GENERATE SECURE TOKEN
+openssl rand 64 | base64
+
+// inserir os dados no banco
+psql -h 127.0.0.1 -U strapi -d strapi -W < strapi.sql
+
+// gerar os dados do banco em um arquivo
+pg_dump -c --if-exists --exclud e-table=strapi_administrator -h 127.0.0.1 -U strapi -d strapi -W > strapi.sql
+
+sudo service postgresql start
+sudo service postgresql status
+sudo service postgresql stop
+
+sudo -u postgres -i
+
+sudo -u postgres psql
+
+sudo -u postgres createuser strapi
+
+sudo -u postgres createdb strapi
+
+alter user strapi with encrypted password 'strapi123';
+
+grant all privileges on database username to dbname;
+
+// listar usuários do postgres
+\du
+
+// listar bancos do postgres
+\l
