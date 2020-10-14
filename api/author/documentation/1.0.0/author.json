@@ -520,6 +520,7 @@
           "photo",
           "name",
           "role",
+          "socialLinks",
           "description"
         ],
         "properties": {
@@ -638,6 +639,7 @@
         "required": [
           "name",
           "role",
+          "socialLinks",
           "description"
         ],
         "properties": {

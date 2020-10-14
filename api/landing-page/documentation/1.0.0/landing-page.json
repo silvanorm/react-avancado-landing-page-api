@@ -856,6 +856,7 @@
                   "photo",
                   "name",
                   "role",
+                  "socialLinks",
                   "description"
                 ],
                 "properties": {
@@ -1503,6 +1504,7 @@
                   "photo",
                   "name",
                   "role",
+                  "socialLinks",
                   "description"
                 ],
                 "properties": {

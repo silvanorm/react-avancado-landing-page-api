@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/09/2020 3:35:04 PM"
+    "x-generation-date": "10/14/2020 5:37:09 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2975,6 +2975,7 @@
           "photo",
           "name",
           "role",
+          "socialLinks",
           "description"
         ],
         "properties": {
@@ -3093,6 +3094,7 @@
         "required": [
           "name",
           "role",
+          "socialLinks",
           "description"
         ],
         "properties": {
@@ -3684,6 +3686,7 @@
                   "photo",
                   "name",
                   "role",
+                  "socialLinks",
                   "description"
                 ],
                 "properties": {
@@ -4331,6 +4334,7 @@
                   "photo",
                   "name",
                   "role",
+                  "socialLinks",
                   "description"
                 ],
                 "properties": {
